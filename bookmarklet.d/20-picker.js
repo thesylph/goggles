@@ -27,7 +27,7 @@ function Picker(onPickColor, onPickBrush) {
   });
   var chosenColor = $();
   // different brush colors!
-  var colors = ["#000", "#fff", "#e50", "#fa0", "#1ba", "#e07", "#ab0"]
+  var colors = ["#000", "#fff", "#e50", "#fa0", "#1ba", "#e07", "#ab0", #BBBBBB, #888888, #555555, #222222, #a10000, #a15000, #a1a100, #626262, #416600, #008141, #008282, #005682, #000056, #2b0057, #6a006a, #77003c, #00d5f2, #f141ef, #f2a400, #1f9400, ]
     .map(function(color) {
       var colorjq = $("<div>").css({"background-color": color,
                                     'color': (color=="#000"?"#fff":"#000"),
